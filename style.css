@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  position: relative;
+  
 }
 
 header {
@@ -33,9 +35,27 @@ section {
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
+   text-align: center;
+  padding: 10px;
     bottom: 0;
     width: 100%;
+}
+form{
+  display: inline-flex;
+}
+profile-picture {
+    flex: 1;
+}
+
+.profile-picture img {
+  width: 20%;
+  padding-bottom: 20px;
+  display: flex;
+}
+.info {
+  display: flex;
+}
+
+.paragraph {
+  margin-left: auto;
 }
